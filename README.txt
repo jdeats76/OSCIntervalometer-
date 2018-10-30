@@ -22,7 +22,7 @@
 -------------------------------------------------------------------------------------------
 
 PURPOSE:
-The purpose of this app is to provide Samsung Gear 360 (2017 edition) camera owners an Introvalometer feature though a custom Android app. This app using the open OSC API standard to manipulate the Gear 360 camera and can be easily modified to work with any OSC camera that supports v1 of the OSC API (see comments in source code). This App is not limited to Samsung phones and can run on any WiFi enabled Android device running Android Nougat 7.x or above.
+The purpose of this app is to provide Samsung Gear 360 (2017 edition) camera owners an Introvalometer feature though a custom Android app. This app makes use of the open OSC API standard to manipulate the Gear 360 camera and can be easily modified to work with any OSC camera that supports v1 of the OSC API. This App is not limited to Samsung phones and can run on any WiFi enabled Android device running Android Nougat 7.x or above.
 
 What is an intervalometer? One popular feature of 360 cameras is the ability to take a series of automatic shots on time delay or step count. This feature is called a Intervalometer. To capture sequential 360 photos for the purpose of a scenario like Google Street View photography, an intervalometer is a required feature. Many 360 cameras have an intervalometer feature built into the companion software or on the device itself, however the Samsung Gear 360 and a few other model 360 cameras do not offer this feature. 
 
