@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="OSC Intervalometer"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtIntervalSeconds"
+        android:layout_width="336dp"
+        android:layout_height="188dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Delay (in seconds)"
+        android:inputType="number"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSessionStart"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:onClick="btnSessionStartClick"
+            android:text="Start session"
+            tools:text="Start Session" />
+
+        <Button
+            android:id="@+id/btnSessionEnd"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btnSessionEndClick"
+            android:text="End session"
+            android:enabled="true"
+            tools:text="End Session" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=""
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</LinearLayout>
