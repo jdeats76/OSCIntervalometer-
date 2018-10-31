@@ -13,10 +13,10 @@
 --
 -- WARRANTY AND LEGAL TERMS OF USE:
 -- This software is provided as is with no warranty or guarantee whatsoever.
--- By using this software you agree to assume all culpability for potential data loss,
+-- By using this software you agree to assume all liability for potential data loss,
 -- hardware failures, accidents resulting in use and potential legal issues resulting from
 -- photography without consent. By using and continuing to use this software, you assume
--- full culpability of any other possible unintended outcome not explicitly stated here.
+-- full liability of any other possible unintended outcome not explicitly stated here.
 -- TL;DR Use at your own risk.
 --
 -------------------------------------------------------------------------------------------
